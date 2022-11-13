@@ -2,7 +2,7 @@ const getGoods = () => {
   const links = document.querySelectorAll('.navigation-link');
 
   const getData = () => {
-    fetch('/db/db.json')
+    fetch('/wildberries_lesson2/db/db.json')
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
